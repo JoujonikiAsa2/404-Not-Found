@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo {
+    margin: 5vh 10vh;
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+
+img {
+    width: 40vw;
+    height: 60vh;
+}
+
+.container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15vh;
+    margin: 10vh;
+}
+
+.title {
+    width: 40vw;
+    height: auto;
+    color: #333;
+    font-family: Space Mono;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
+
+.info {
+    width: 30vw;
+    color: #4F4F4F;
+    font-family: Space Mono;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    margin: 10px 0px 50px 0px;
+}
+
+.btn {
+    width: 15vw;
+    height: auto;
+    background: #333;
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 0.90rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    padding: 1.5rem;
+}
+.footer-wrapper {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 8vh;
+    margin-bottom: 0;
+}
+
+.footer {
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+@media screen and (max-width: 375px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .header-logo{
+        text-align: left;
+        margin-left:24px;
+        width: 50vw;
+    }
+    .container{
+        margin: 10px;
+        display: block;
+    }
+    img {
+        width: 50vw;
+        height: 35vh;
+        
+    }
+
+    .btn {
+        width: 60vw;
+        height: auto;
+        background: #333;
+        padding: 0.8rem;
+    }
+
+    .title {
+        width: 90vw;
+        height: auto;
+        color: #333;
+        font-family: Space Mono;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1.68px;
+    }
+
+    .info {
+        width: 90vw;
+        height: auto;
+        color: #4F4F4F;
+        font-family: Space Mono;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.63px;
+    }
+}
